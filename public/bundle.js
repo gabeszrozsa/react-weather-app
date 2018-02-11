@@ -26732,7 +26732,7 @@
 	  return _react2.default.createElement(
 	    'h3',
 	    null,
-	    'Examples Component'
+	    'Examples'
 	  );
 	};
 
