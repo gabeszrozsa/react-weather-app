@@ -1,11 +1,9 @@
-const React = require('react');
+import React from 'react';
 
-const Examples = React.createClass({
-  render: function() {
-    return (
-      <h3>Examples Component</h3>
-    );
-  }
-});
+const Examples = (props) => {
+  return (
+    <h3>Examples Component</h3>
+  )
+};
 
-module.exports = Examples;
+export default Examples;

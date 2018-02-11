@@ -1,11 +1,11 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const { Route, Router, IndexRoute, hashHistory } = require('react-router');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Route, Router, IndexRoute, hashHistory } from 'react-router';
 
-const Main = require('Main');
-const Weather = require('Weather');
-const About = require('About');
-const Examples = require('Examples');
+import Main from 'Main';
+import Weather from 'Weather';
+import About from 'About';
+import Examples from 'Examples';
 
 ReactDOM.render(
   <Router history={hashHistory}>
